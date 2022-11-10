@@ -9,7 +9,7 @@ on:
   push:
     branches: [ "master" ]
   pull_request:
-    branches: [ "create-workflow-publish" ]    
+    branches: [ "create-workflow-publish"  ]    
 
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}          
