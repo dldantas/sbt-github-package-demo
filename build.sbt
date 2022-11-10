@@ -6,8 +6,8 @@ version := "0.1.5"
 organization := "gjuoun"
 
 // configs for sbt-github-packages plugin
-githubOwner := "gjuoun"
-githubRepository := "github-packages-playground"
+githubOwner := "dldantas"
+githubRepository := "sbt-github-package-demo"
 githubTokenSource := TokenSource.GitConfig("github.token")
 
 lazy val root = (project in file("."))
